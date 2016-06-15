@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  C2LuaProject.cpp
+  正在生成代码...
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "void __cdecl lua_close(struct lua_State *)" (?lua_close@@YAXPAUlua_State@@@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "void __cdecl lua_settop(struct lua_State *,int)" (?lua_settop@@YAXPAUlua_State@@H@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "char const * __cdecl lua_tolstring(struct lua_State *,int,unsigned int *)" (?lua_tolstring@@YAPBDPAUlua_State@@HPAI@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl lua_pcall(struct lua_State *,int,int,int)" (?lua_pcall@@YAHPAUlua_State@@HHH@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl luaL_loadbuffer(struct lua_State *,char const *,unsigned int,char const *)" (?luaL_loadbuffer@@YAHPAUlua_State@@PBDI1@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "struct lua_State * __cdecl luaL_newstate(void)" (?luaL_newstate@@YAPAUlua_State@@XZ)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl luaopen_base(struct lua_State *)" (?luaopen_base@@YAHPAUlua_State@@@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl luaopen_table(struct lua_State *)" (?luaopen_table@@YAHPAUlua_State@@@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl luaopen_io(struct lua_State *)" (?luaopen_io@@YAHPAUlua_State@@@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl luaopen_string(struct lua_State *)" (?luaopen_string@@YAHPAUlua_State@@@Z)，该符号在函数 _main 中被引用
+C2LuaProject.obj : error LNK2019: 无法解析的外部符号 "int __cdecl luaopen_math(struct lua_State *)" (?luaopen_math@@YAHPAUlua_State@@@Z)，该符号在函数 _main 中被引用
+E:\Temp\C2Lua\C2LuaProject\Debug\C2LuaProject.exe : fatal error LNK1120: 11 个无法解析的外部命令
